@@ -57,7 +57,7 @@ switch ($action) {
             header("location: .?course_id=$course_id");
         } else {
             $error = "Missing or incorrect assignment_id.";
-            include('view/erro.php');
+            include('view/error .php');
         }
         break;
     default:
